@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+ 
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ 
+html, body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background: radial-gradient(rgb(74, 74, 255), #000);
+    overflow: hidden;
+    color: #fff;
+}
+ 
+.button-higher:disabled, .button-lower:disabled {
+    opacity: 1;
+    background-color: white;
+    color: black;
+}
+ 
+.button-higher {
+    position: absolute;
+    opacity: 1;
+    left: 39%;
+    top: 63%;
+    height: 7%;
+    width: 7%;
+    font-size: 170%;
+    border: 1.3mm ridge greenyellow;
+}
+ 
+.button-lower {
+    position: absolute;
+    opacity: 1;
+    left: 50%;
+    top: 63%;
+    height: 7%;
+    width: 7%;
+    font-size: 180%;
+    border: 1.3mm ridge red;
+}
+ 
+.button-higher:hover {
+    background-color: greenyellow;
+}
+ 
+.button-lower:hover {
+    background-color: red;
+}
+ 
+.game-title {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+ 
+.game-box {
+    position: absolute;
+    left: 37.5%;
+    top: 26%;
+    width: 20%;
+    height: 30%;
+    border: 3mm ridge rgb(186, 0, 186);
+    color: rgba(255, 255, 255, 0.87);
+    font-family: fantasy;
+    background-color: rgb(250, 152, 250);
+}
+ 
+.random-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 15%;
+    background-color: blue;
+    color: rgb(4, 255, 0);
+    border-style: solid;
+    border: 3px solid #000;
+    border-radius: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+ 
+.random-number-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 15%;
+    background-color: rgb(208, 255, 0);
+    color: rgb(30, 0, 255);
+    border-style: solid;
+    border: 3px solid #000;
+    border-radius: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+}
+ 
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 20%;
+    color: rgb(18, 0, 54);
+    border-radius: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 30%;
+    bottom: 37%;
+    background-color: #fff;
+    border: solid 2px #fff;
+    box-shadow:
+      inset 60px 0 120px #f0f,
+      inset -60px 0 120px #0ff;
+}
+ 
+.player-points {
+    border-style: solid;
+    border-radius: 0;
+    height: 6%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #000000;
+    color: black;
+    background-color: greenyellow;
+    position: absolute;
+    top: 34%;
+    left: 5%;
+}
+ 
+.computer-points {
+    border-style: solid;
+    border-radius: 0;
+    height: 6%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #000000;
+    background-color: red;
+    position: absolute;
+    top: 34%;
+    right: 5%;
+}
+ 
+.you-won-or-lost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 700%;
+    width: 40%;
+    height: 60%;
+    top: 25%;
+    left: 28%;
+    color: rgb(18, 0, 54);
+    border-radius: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    background-color: cyan;
+    border: solid 2px white;
+    box-shadow:
+      inset 60px 0 120px darkblue,
+      inset -60px 0 120px darkblue;
+}
+ 
+.button-play-again {
+    z-index: 50;
+    font-family: fantasy;
+    position: absolute;
+    display: flex;
+    left: 40.4%;
+    top: 50%;
+    width: 15%;
+    height: 20%;
+    background-color: darkblue;
+    color: white;
+    font-size: larger;
+    box-shadow: 0 0 25px #50A7FF;
+}
+ 
+.button-play-again:hover {
+    background-color: white;
+    color: darkblue;
+    box-shadow: 0 0 5px #50A7FF,
+      0 0 25px #50A7FF,
+      0 0 50px #50A7FF,
+      0 0 100px #50A7FF;
+}
